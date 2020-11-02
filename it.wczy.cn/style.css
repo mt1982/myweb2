@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    padding: 0; /*	内边距*/
+    margin: 0; /*	外边距*/
+    font-size: 14px; /*	设置字号大小*/
+}
+.box {
+    /*	background-color: gold;	*/
+    width: 1140px;    margin: 0 auto;
+}
+.fl {    float: left}
+.fr {    float: right}
+.navbar {    background-color: #007bff;    height: 50px;    width: 100%}
+.navbar a {    color: white;    font-size: 16px;    text-decoration: none;
+	           line-height: 50px;    width: 103px;    display: block;    text-align: center;
+               float: left;}
+.navbar a:hover {    color: yellow}
+.nb {color: #777}
+.nb h2 {    font-weight: 500;    border-bottom: 1px solid #ccc;    font-size: 30px;
+                padding: 10px 0}
+.nb h2 span {    font-size: 20px;    color: #999;}
+.nb .l {/*    background-color: gold;*/    width: 40%;}
+.nb .l img{	width: 100%;	height: auto}
+.nb .l h3{		margin: 0;}
+.nb .l h3 a{	color: #007bff;	font-size: 20px;	font-weight: 450;	text-decoration: none;
+	           display: inline-block;	width: 100%;	text-align: center;}
+.nb .l h3 a:hover{text-decoration:   underline;	color: #00619F;}
+.nb .l p{	}
+h1,h2,h3,h4,h5,h6{	margin: 0.5em 0;}
+.nb .r {	background-color: palevioletred;	width: 60%}
